@@ -3,5 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    $comics = config('db.comics');
+    $header_menu = config('db.menu');
+
+    return view('index', compact('comics', 'header_menu'));
 });

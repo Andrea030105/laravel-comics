@@ -1,5 +1,5 @@
 <header>
-    <div class="bg-primary banner-blu"></div>
+    <div class="banner-blu"></div>
     <div class="container p-2">
         <div class="row">
             <div class="col-4">

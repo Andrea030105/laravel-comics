@@ -14,9 +14,7 @@
 
 <body>
     @include('patrial.header')
-    <main>
-        main
-    </main>
+    @include('patrial.main')
     @include('patrial.footer')
 </body>
 

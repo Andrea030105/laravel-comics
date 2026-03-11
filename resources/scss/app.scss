@@ -1,8 +1,8 @@
-@import "~bootstrap/scss/bootstrap";
+@use "./partials/header" as *;
+@use "./partials/main" as *;
+@use "./partials/footer" as *;
 
-@import "./patrial/header";
-@import "./patrial/main";
-@import "./patrial/footer";
+@import "~bootstrap/scss/bootstrap";
 
 * {
     padding: 0;

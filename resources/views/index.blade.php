@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{-- Aggiungi questa riga ↓ --}}
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
     <title>Laravel</title>
 

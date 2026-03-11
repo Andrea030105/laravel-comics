@@ -1,9 +1,9 @@
 <header>
     <div class="bg-primary banner-blu"></div>
-    <div class="container p-3">
+    <div class="container p-2">
         <div class="row">
             <div class="col-4">
-                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
+                <img class="logo-img" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
             </div>
             <div class="col-8 d-flex align-items-center justify-content-center">
                 <nav class="navbar navbar-expand-lg">
